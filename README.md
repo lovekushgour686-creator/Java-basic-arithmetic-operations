@@ -15,6 +15,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program06.java` | Even or Odd Number Checker | Uses the modulus operator (`%`) inside a decremental loop to test whether numbers are divisible by 2. |
 | `program07.java` | Positive, Negative, or Zero Checker | Uses conditional `if-else if-else` branching to determine whether a user-entered integer is equal to zero, negative (`< 0`), or positive (`> 0`). |
 | `program08.java` | Largest of Two Numbers | Evaluates relational comparison operators (`>`) on two user-input integers to identify and output the larger value. |
+| `program09.java` | Simple Interest Calculator | Calculates simple interest using double-precision inputs via the standard formula `(principle * rate * time) / 100`. |
+| `program10.java` | Celsius & Fahrenheit Temperature Converter | Performs bidirectional temperature scale conversions using arithmetic formula operations: `(C * 1.8) + 32` and `(5 * (F - 32)) / 9`. |
 ---
 
 ## 🛠️ How to Compile and Run
