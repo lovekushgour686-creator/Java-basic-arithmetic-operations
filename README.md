@@ -19,6 +19,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program10.java` | Celsius & Fahrenheit Temperature Converter | Performs bidirectional temperature scale conversions using arithmetic formula operations: `(C * 1.8) + 32` and `(5 * (F - 32)) / 9`. |
 | `program11.java` | Average Marks Calculator | Stores user-defined subject marks in an array and computes the mean average dynamically by aggregating the total sum and dividing by the subject count (`s / d`). |
 | `program12.java` | Prime Number Checker | Evaluates number primality through iterative divisibility checks using the modulo operator (`%`), terminating early if a non-trivial factor is encountered. |
+| `program13.java` | Dynamic Array Input with Primality Verification | Accepts an array of numerical entries from user input[cite: 24] and evaluates the element count boundaries against prime divisibility criteria (`n % i == 0`)[cite: 24]. |
+| `program14.java` | Linear Search in Array | Performs a linear scan over an integer array[cite: 25] to search for a target key `k`[cite: 25], updating a boolean flag `r` when the element is matched[cite: 25]. |
 ---
 
 ## 🛠️ How to Compile and Run
