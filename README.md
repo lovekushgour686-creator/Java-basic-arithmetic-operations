@@ -21,6 +21,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program12.java` | Prime Number Checker | Evaluates number primality through iterative divisibility checks using the modulo operator (`%`), terminating early if a non-trivial factor is encountered. |
 | `program13.java` | Dynamic Array Input with Primality Verification | Accepts an array of numerical entries from user input[cite: 24] and evaluates the element count boundaries against prime divisibility criteria (`n % i == 0`)[cite: 24]. |
 | `program14.java` | Linear Search in Array | Performs a linear scan over an integer array[cite: 25] to search for a target key `k`[cite: 25], updating a boolean flag `r` when the element is matched[cite: 25]. |
+| `program15.java` | Array Index Search | Scans an array to find a key `k`[cite: 24] and tracks the target index `r`[cite: 24], defaulting to `-1` if the key is not present[cite: 24]. |
+| `program16.java` | Element Occurrence Search | Iterates through an integer array to locate search key `k`[cite: 25] and assigns the last matched index to variable `r`[cite: 25]. |
 ---
 
 ## 🛠️ How to Compile and Run
