@@ -23,6 +23,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program14.java` | Linear Search in Array | Performs a linear scan over an integer array[cite: 25] to search for a target key `k`[cite: 25], updating a boolean flag `r` when the element is matched[cite: 25]. |
 | `program15.java` | Array Index Search | Scans an array to find a key `k`[cite: 24] and tracks the target index `r`[cite: 24], defaulting to `-1` if the key is not present[cite: 24]. |
 | `program16.java` | Element Occurrence Search | Iterates through an integer array to locate search key `k`[cite: 25] and assigns the last matched index to variable `r`[cite: 25]. |
+| `program17.java` | Count Digits in an Integer | Counts total digits in an integer using continuous division by 10 (`n / 10`) inside a `while` loop[cite: 24], with zero-value safety checking[cite: 24]. |
+| `program18.java` | Trailing Zeroes in Factorial ($N!$) | Calculates trailing zeroes in $N!$ efficiently by counting prime factors of 5 using integer division (`count += n / i`) across successive powers of 5[cite: 25]. |
 ---
 
 ## 🛠️ How to Compile and Run
