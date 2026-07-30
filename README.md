@@ -27,6 +27,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program18.java` | Trailing Zeroes in Factorial ($N!$) | Calculates trailing zeroes in $N!$ efficiently by counting prime factors of 5 using integer division (`count += n / i`) across successive powers of 5[cite: 25]. |
 | `program19.java` | Boolean Even or Odd Checker | Uses absolute value transformation (`Math.abs`) and standard modulo evaluation (`n % i == 0`) inside a boolean function returning `true` for even values and `false` for odd[cite: 23]. |
 | `program20.java` | Perfect Number Verifier | Computes factor sums in $O(\sqrt{N})$ time using square root iteration bounds (`i * i <= n`), aggregating factor pairs (`i` and `n / i`) to check equality against $N$[cite: 24]. |
+| `program21.java` | Armstrong Number Verifier | Dynamically counts digits via iterative division by 10 (`n /= 10`)[cite: 23] and checks if the sum of each digit raised to the total digit power (`Math.pow(r, digit)`) equals the original number[cite: 23]. |
+| `program22.java` | Palindrome Number Verifier | Ignores sign using absolute values (`Math.abs(n)`)[cite: 24] and constructs the reversed integer via `(rev * 10) + (n % 10)`[cite: 24] to compare equality against the initial input[cite: 24]. |
 ---
 
 ## 🛠️ How to Compile and Run
