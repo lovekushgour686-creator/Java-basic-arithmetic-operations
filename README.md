@@ -29,6 +29,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program20.java` | Perfect Number Verifier | Computes factor sums in $O(\sqrt{N})$ time using square root iteration bounds (`i * i <= n`), aggregating factor pairs (`i` and `n / i`) to check equality against $N$[cite: 24]. |
 | `program21.java` | Armstrong Number Verifier | Dynamically counts digits via iterative division by 10 (`n /= 10`)[cite: 23] and checks if the sum of each digit raised to the total digit power (`Math.pow(r, digit)`) equals the original number[cite: 23]. |
 | `program22.java` | Palindrome Number Verifier | Ignores sign using absolute values (`Math.abs(n)`)[cite: 24] and constructs the reversed integer via `(rev * 10) + (n % 10)`[cite: 24] to compare equality against the initial input[cite: 24]. |
+| `program23.java` | GCD via Brute-Force Iteration | Iterates linearly from 2 up to $\min(a, b)$ checking simultaneous divisibility (`f % i == 0 && s % i == 0`)[cite: 23]. |
+| `program24.java` | Optimized GCD via Euclidean Algorithm | Computes the Greatest Common Divisor in $O(\log(\min(a, b)))$ time complexity using continuous modulo swaps (`b = a % b`) until $b = 0$[cite: 24]. |
 ---
 
 ## 🛠️ How to Compile and Run
