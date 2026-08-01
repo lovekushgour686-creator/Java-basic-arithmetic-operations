@@ -31,6 +31,8 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program22.java` | Palindrome Number Verifier | Ignores sign using absolute values (`Math.abs(n)`)[cite: 24] and constructs the reversed integer via `(rev * 10) + (n % 10)`[cite: 24] to compare equality against the initial input[cite: 24]. |
 | `program23.java` | GCD via Brute-Force Iteration | Iterates linearly from 2 up to $\min(a, b)$ checking simultaneous divisibility (`f % i == 0 && s % i == 0`)[cite: 23]. |
 | `program24.java` | Optimized GCD via Euclidean Algorithm | Computes the Greatest Common Divisor in $O(\log(\min(a, b)))$ time complexity using continuous modulo swaps (`b = a % b`) until $b = 0$[cite: 24]. |
+| `program25.java` | LCM via Euclidean Algorithm | Calculates the Least Common Multiple (LCM) by deriving the GCD through Euclidean modulo steps (`b = a % b`)[cite: 23] and using the relation $\text{LCM} = \frac{f \times s}{\text{GCD}}$[cite: 23]. |
+| `program26.java` | Find Missing Element in Permutation | Sorts the input array using `Arrays.sort()`[cite: 24] and detects the missing integer from $1$ to $N$ by linearly comparing elements against an incremental expected value counter[cite: 24]. |
 ---
 
 ## 🛠️ How to Compile and Run
