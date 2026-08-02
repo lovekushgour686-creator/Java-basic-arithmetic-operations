@@ -33,6 +33,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program24.java` | Optimized GCD via Euclidean Algorithm | Computes the Greatest Common Divisor in $O(\log(\min(a, b)))$ time complexity using continuous modulo swaps (`b = a % b`) until $b = 0$[cite: 24]. |
 | `program25.java` | LCM via Euclidean Algorithm | Calculates the Least Common Multiple (LCM) by deriving the GCD through Euclidean modulo steps (`b = a % b`)[cite: 23] and using the relation $\text{LCM} = \frac{f \times s}{\text{GCD}}$[cite: 23]. |
 | `program26.java` | Find Missing Element in Permutation | Sorts the input array using `Arrays.sort()`[cite: 24] and detects the missing integer from $1$ to $N$ by linearly comparing elements against an incremental expected value counter[cite: 24]. |
+| `program27.java` | Range Prime Numbers Generator | Finds all prime numbers within an inclusive range $[l, r]$ by filtering bounds (`Math.max(2, l)`) and testing trial division up to $\sqrt{i}$ (`j * j <= i`), storing matches in a dynamic `ArrayList`. |
 ---
 
 ## 🛠️ How to Compile and Run
