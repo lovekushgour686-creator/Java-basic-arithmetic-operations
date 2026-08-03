@@ -34,6 +34,9 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program25.java` | LCM via Euclidean Algorithm | Calculates the Least Common Multiple (LCM) by deriving the GCD through Euclidean modulo steps (`b = a % b`)[cite: 23] and using the relation $\text{LCM} = \frac{f \times s}{\text{GCD}}$[cite: 23]. |
 | `program26.java` | Find Missing Element in Permutation | Sorts the input array using `Arrays.sort()`[cite: 24] and detects the missing integer from $1$ to $N$ by linearly comparing elements against an incremental expected value counter[cite: 24]. |
 | `program27.java` | Range Prime Numbers Generator | Finds all prime numbers within an inclusive range $[l, r]$ by filtering bounds (`Math.max(2, l)`) and testing trial division up to $\sqrt{i}$ (`j * j <= i`), storing matches in a dynamic `ArrayList`. |
+| `program28.java` | Sum of Squares of First $N$ Natural Numbers | Computes $1^2 + 2^2 + \dots + n^2$ through an iterative loop using `Math.powExact(i, 2)` to safely prevent arithmetic overflow during exponentiation. |
+
+-
 ---
 
 ## 🛠️ How to Compile and Run
