@@ -35,6 +35,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program26.java` | Find Missing Element in Permutation | Sorts the input array using `Arrays.sort()`[cite: 24] and detects the missing integer from $1$ to $N$ by linearly comparing elements against an incremental expected value counter[cite: 24]. |
 | `program27.java` | Range Prime Numbers Generator | Finds all prime numbers within an inclusive range $[l, r]$ by filtering bounds (`Math.max(2, l)`) and testing trial division up to $\sqrt{i}$ (`j * j <= i`), storing matches in a dynamic `ArrayList`. |
 | `program28.java` | Sum of Squares of First $N$ Natural Numbers | Computes $1^2 + 2^2 + \dots + n^2$ through an iterative loop using `Math.powExact(i, 2)` to safely prevent arithmetic overflow during exponentiation. |
+| `program29.java` | Sum of Cubes of First $N$ Natural Numbers | Computes $1^3 + 2^3 + \dots + n^3$ through a `while` loop using `Math.powExact(i, 3)` to evaluate cubic power sums[cite: 22]. |
 
 -
 ---
