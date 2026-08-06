@@ -37,6 +37,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program28.java` | Sum of Squares of First $N$ Natural Numbers | Computes $1^2 + 2^2 + \dots + n^2$ through an iterative loop using `Math.powExact(i, 2)` to safely prevent arithmetic overflow during exponentiation. |
 | `program29.java` | Sum of Cubes of First $N$ Natural Numbers | Computes $1^3 + 2^3 + \dots + n^3$ through a `while` loop using `Math.powExact(i, 3)` to evaluate cubic power sums[cite: 22]. |
 | `program30.java` | Digital Root Calculator | Computes the recursive sum of digits until reaching a single digit using an initial digit summation followed by digital root modulo arithmetic (`sum % 9`)[cite: 21]. |
+| `program31.java` | Perfect Square Verifier | Determines if an integer $N$ is a perfect square by testing trial roots bounded by $i \cdot i \le N$ using `Math.powExact(i, 2)` comparison[cite: 20]. |
 
 -
 ---
