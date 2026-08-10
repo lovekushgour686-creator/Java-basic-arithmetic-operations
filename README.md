@@ -40,6 +40,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program31.java` | Perfect Square Verifier | Determines if an integer $N$ is a perfect square by testing trial roots bounded by $i \cdot i \le N$ using `Math.powExact(i, 2)` comparison[cite: 20]. |
 | `program32.java` | Range Perfect Cubes Generator | Scans an inclusive integer range $[a, b]$[cite: 21], computes integer cube roots via `Math.cbrt(i)`[cite: 21], and verifies perfect cubes using `Math.powExact(cubeRoot, 3) == i`[cite: 21] to populate an `ArrayList`[cite: 21]. |
 | `program33.java` | $N$-th Tribonacci Number Calculator | Calculates $T_n$ using dynamic three-variable tracking (`d = a + b + c`) inside an iterative loop[cite: 22], where each term is defined as $T_n = T_{n-1} + T_{n-2} + T_{n-3}$ with initial seeds $T_0=0, T_1=1, T_2=1$[cite: 22]. |
+| `program34.java` | Disarium Number Verifier | Determines if a number is Disarium by counting total digits[cite: 23], then processing digits right-to-left while calculating `Math.powExact(r, count)`[cite: 23] with a decrementing positional power[cite: 23] to compare against the initial input[cite: 23]. |
 
 -
 ---
