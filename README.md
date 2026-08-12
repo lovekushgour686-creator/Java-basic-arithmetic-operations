@@ -42,6 +42,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program33.java` | $N$-th Tribonacci Number Calculator | Calculates $T_n$ using dynamic three-variable tracking (`d = a + b + c`) inside an iterative loop[cite: 22], where each term is defined as $T_n = T_{n-1} + T_{n-2} + T_{n-3}$ with initial seeds $T_0=0, T_1=1, T_2=1$[cite: 22]. |
 | `program34.java` | Disarium Number Verifier | Determines if a number is Disarium by counting total digits[cite: 23], then processing digits right-to-left while calculating `Math.powExact(r, count)`[cite: 23] with a decrementing positional power[cite: 23] to compare against the initial input[cite: 23]. |
 | `program35.java` | Rightmost Non-Zero Digit in Array Product | Computes the product of array elements while stripping trailing zeroes (`p /= 10`)[cite: 24] and applying modulo bounds (`p %= 1000000`)[cite: 24] to isolate the rightmost non-zero digit[cite: 24]. |
+| `program36.java` | Convert Zeroes to Fives | Replaces all zeroes in an integer $N$ with 5s by extracting digits right-to-left[cite: 17], substituting zeroes (`rev == 0 ? 5 : rev`)[cite: 17], and reversing the extracted digits back to their original sequence[cite: 17]. |
 -
 ---
 
