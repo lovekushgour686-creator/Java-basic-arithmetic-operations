@@ -44,6 +44,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program35.java` | Rightmost Non-Zero Digit in Array Product | Computes the product of array elements while stripping trailing zeroes (`p /= 10`)[cite: 24] and applying modulo bounds (`p %= 1000000`)[cite: 24] to isolate the rightmost non-zero digit[cite: 24]. |
 | `program36.java` | Convert Zeroes to Fives | Replaces all zeroes in an integer $N$ with 5s by extracting digits right-to-left[cite: 17], substituting zeroes (`rev == 0 ? 5 : rev`)[cite: 17], and reversing the extracted digits back to their original sequence[cite: 17]. |
 | `program37.java` | Spy Number Verifier | Extracts individual digits using modulo operations (`num % 10`)[cite: 18] inside a `while` loop[cite: 18] to simultaneously compute digit sum (`s`)[cite: 18] and digit product (`p`)[cite: 18], verifying whether `s == p`[cite: 18]. |
+| `program38.java` | Numbers Containing Specific Digit Generator | Scans values from $0$ to $N$[cite: 19], extracting digits via modulo division (`j % 10 == d`)[cite: 19] inside a nested loop to identify numbers containing digit $d$[cite: 19] and storing matches in an `ArrayList`[cite: 19]. |
 -
 ---
 
