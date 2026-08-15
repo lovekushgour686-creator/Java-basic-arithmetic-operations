@@ -45,6 +45,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program36.java` | Convert Zeroes to Fives | Replaces all zeroes in an integer $N$ with 5s by extracting digits right-to-left[cite: 17], substituting zeroes (`rev == 0 ? 5 : rev`)[cite: 17], and reversing the extracted digits back to their original sequence[cite: 17]. |
 | `program37.java` | Spy Number Verifier | Extracts individual digits using modulo operations (`num % 10`)[cite: 18] inside a `while` loop[cite: 18] to simultaneously compute digit sum (`s`)[cite: 18] and digit product (`p`)[cite: 18], verifying whether `s == p`[cite: 18]. |
 | `program38.java` | Numbers Containing Specific Digit Generator | Scans values from $0$ to $N$[cite: 19], extracting digits via modulo division (`j % 10 == d`)[cite: 19] inside a nested loop to identify numbers containing digit $d$[cite: 19] and storing matches in an `ArrayList`[cite: 19]. |
+| `program39.java` | Prime Factorization Generator | Extracts all prime factors of integer $N$ by first stripping factor 2 (`num % 2 == 0`)[cite: 20], trial dividing odd numbers up to $\sqrt{N}$ (`i * i <= num`)[cite: 20], and appending any remaining prime tail[cite: 20] to an `ArrayList`[cite: 20]. |
 -
 ---
 
