@@ -49,6 +49,7 @@ basic mathematical calculations, formula evaluation, and operator usage.
 | `program40.java` | Prime Numbers Counter Up To $N$ | Counts total prime numbers from 2 up to $N$[cite: 21] using nested loops with trial division up to $\sqrt{i}$ (`j * j <= i`)[cite: 21], incrementing a counter whenever a prime number is confirmed[cite: 21]. |
 | `program40.java` | Prime Numbers Counter Up To $N$ | Counts total prime numbers from 2 up to $N$[cite: 21] using nested loops with trial division up to $\sqrt{i}$ (`j * j <= i`)[cite: 21], incrementing a counter whenever a prime number is confirmed[cite: 21]. |
 | `program42.java` | Kaprekar Number Verifier | Computes $N^2$ (`Math.pow(num, 2)`) and splits the squared result into LHS (`sq / denominator`) and RHS (`sq % denominator`) parts using powers of 10, verifying whether non-zero parts sum back to $N$ (`LHS + RHS == num`). |
+| `program43.java` | Count Factors of an Integer | Iterates up to $N/2$ using symmetric dual-checking (`num % i == 0` and `num % (num + 1 - i) == 0`)[cite: 16] to evaluate divisible factors and calculate total factor count[cite: 16]. |
 -
 ---
 
